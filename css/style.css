@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.tituloDePagina {
+  color: orchid;
+  text-align: center;
+  margin: 0;
+}
+
+.linkGenero{
+    color: orchid;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.encabezado {
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  margin: 0;
+  background-color: black;
+}
+.navegacion{
+    text-align: end;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-right: 10px;
+}
+.contenidoPagina {
+  display: flex;
+  margin-top: 90px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.recomendaciones {
+  width: 45%;
+  text-align: center;
+  border: 1px solid black;
+  margin-left: 20px;
+}
+.imagenPoesia {
+  height: 200px;
+  width: 300px;
+}
+.imagenCienciaFiccion {
+  height: 300px;
+  width: 400px;
+}
+.imagendrama {
+  width: 200px;
+  height: 300px;
+}
+.p {
+  color: dodgerblue;
+}
+.nombreCompleto {
+  align-content: center;
+}
+.mail {
+  align-content: center;
+  margin-left: 10;
+}
+.telefono {
+  align-content: center;
+}
+.escribinos {
+  align-content: center;
+}
+.footer {
+  background: linear-gradient(rgb(219, 9, 9), rgb(70, 3, 14));
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+
+.tituloRedes {
+  color: rgb(129, 146, 133);
+  margin-bottom: 15px;
+}
+.redesSociales {
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
+.inforformulario {
+  text-align: center;
+}
+.formulario {
+  text-align: center;
+}
+
+.generoLiterario {
+  display: flex;
+  text-align: center;
+  margin-top: 10px;
+}
+.estiloImagenGenero {
+  width: 150px !important;
+  height: 200px !important;
+}
+
+.descripcionGenero {
+  text-align: justify;
+}
+
+.textoGenero {
+  margin-left: 30px;
+}
+
+.labelFormulario{
+    margin-right: 15px;
+}
+.campoFormulario{
+    margin-bottom: 10px;
+}
+
+.recomendacion{
+    margin-top: 10%;
+}
+.botonesFormulario{
+    margin-top: 15px;
+}

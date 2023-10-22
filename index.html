@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="spain">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagina de Libros</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <div class="encabezado">
+        <div class="tituloDePagina">
+            <h1 class="tituloDePagina">PAGINA DE LIBROS</h1>
+        </div>
+        <div class="navegacion">
+            <a class="linkGenero" href="#poesia">Poesia</a>
+            <a class="linkGenero" href="#cienciaFiccion">Ciencia Ficcion</a>
+            <a class="linkGenero" href="#drama">Drama</a>
+            <a class="linkGenero" href="#terror">Terror</a>
+        </div>
+    </div>
+    <div class="contenidoPagina">
+      <div class="infoGeneros">
+        <div  class="generoLiterario">
+          <div class="imagenGenero">
+            <img
+              class="estiloImagenGenero"
+              src="https://www.elejandria.com/covers/Libro_de_poemas-Garcia_Lorca_Federico-md.png"
+              alt="libro de poesia"
+            />
+          </div>
+          <div class="textoGenero">
+            <h2 id="poesia" class="tituloGenero">POESIA</h2>
+            <p class="descripcionGenero">
+              La <strong>poesía</strong> es un género literario que se
+              caracteriza por ser una manifestación de los sentimientos,
+              emociones y reflexiones que puede expresar el ser humano en torno
+              a la belleza, el amor, la vida o la muerte por medio de la
+              palabra. Como tal, puede estar compuesta tanto en verso como en
+              prosa.
+            </p>
+          </div>
+        </div>
+        <div  class="generoLiterario">
+          <div class="imagenGenero">
+            <img
+              class="estiloImagenGenero"
+              src="https://hips.hearstapps.com/hmg-prod/images/el-hombre-ilustrado-1501683815.jpg"
+              alt="libro ciencia ficcion"
+            />
+          </div>
+          <div class="textoGenero">
+            <h2 id="cienciaFiccion" class="generoCienciaF">CIENCIA FICCION</h2>
+            <p class="descripcionGenero">
+              La <strong>ciencia ficción</strong> es un género narrativo que
+              sitúa la acción en unas coordenadas espacio-temporales imaginarias
+              y diferentes a las nuestras, y que especula racionalmente sobre
+              posibles avances científicos o sociales y su impacto en la
+              sociedad.
+            </p>
+          </div>
+        </div>
+
+        <div  class="generoLiterario">
+          <div class="imagenGenero">
+            <img
+              class="estiloImagenGenero"
+              src="https://okdiario.com/coolthelifestyle/img/2021/07/08/9788423340446.jpeg"
+              alt="libro drama"
+            />
+          </div>
+          <div class="textoGenero">
+            <h2 id="drama" class="generoDrama">DRAMA</h2>
+            <p class="descripcionGenero">
+              El <strong>género dramático</strong> se caracteriza porque los
+              textos no están creados ni pensados sólo para ser leídos. El
+              género dramático se caracteriza por la exposición de uno o varios
+              conflictos en la vida de los personajes, que se representan o
+              escenifican en el foro de un teatro con el uso de diálogos para
+              desarrollar la obra.
+            </p>
+          </div>
+        </div>
+
+        <div class="generoLiterario">
+          <div class="imagenGenero">
+            <img
+              class="estiloImagenGenero"
+              src="https://www.quelibroleo.com/noticias/wp-content/uploads/2018/09/libro-1487669793.jpg"
+              alt="libro terror"
+            />
+          </div>
+          <div class="textoGenero">
+            <h2 id="terror" class="generoTerror">HORROR-TERROR</h2>
+            <p class="descripcionGenero">
+              El <strong>horror o terror</strong> es un género literario que se
+              define por la sensación que causa: miedo. Nöel Carroll en su libro
+              The Philosophy of Horror explica que la característica más
+              importante del género horror es el efecto del que se causa en la
+              audiencia, el horror necesariamente debe provocar miedo en el
+              espectador.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="recomendaciones">
+          <div class="tituloRecomendaciones">
+            <h2>Recomendaciones</h2>
+        </div>
+        <div class="recomendacion">
+            <h3 class="tituloRecomendacion">Nombre Libro Recomendacion 1 </h3>
+            <p> Autor Libro Recomendacion</p>
+        </div>
+        <div class="recomendacion">
+            <h3 class="tituloRecomendacion">Nombre Libro Recomendacion 2</h3>
+            <p> Autor Libro Recomendacion</p>
+        </div>
+        <div class="recomendacion">
+            <h3 class="tituloRecomendacion">Nombre Libro Recomendacion 3</h3>
+            <p> Autor Libro Recomendacion</p>
+        </div>
+        <div class="recomendacion">
+            <h3 class="tituloRecomendacion">Nombre Libro Recomendacion 4</h3>
+            <p> Autor Libro Recomendacion</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="inforformulario">
+      <h2 class="tituloContactanos">Contactanos</h2>
+      <form action="" method="get">
+        <div class="campoFormulario">
+          <label class="labelFormulario" for="name">Nombre y Apellido</label>
+          <input type="text" name="nombreCompleto" />
+        </div>
+        <div class="campoFormulario">
+          <label class="labelFormulario" for="mail">Mail</label>
+          <input type="email" name="mail" />
+        </div>
+        <div class="campoFormulario">
+          <label class="labelFormulario" for="numeroTelefonico">Numero de contacto</label>
+          <input type="number" name="numeroContacto" />
+        </div>
+        <div class="campoFormulario">
+          <label class="labelFormulario" for="escribinos">Dejanos un mensaje</label>
+          <textarea name="text" id="mensaje" cols="30" rows="10"></textarea>
+        </div>
+        <div class="botonesFormulario">
+          <input type="button" value="Enviar" />
+          <input type="reset" value="Borrar Campos" />
+        </div>
+      </form>
+    </div>
+
+    <div class="footer">
+      <h2 class="tituloRedes">REDES</h2>
+      <p class="redesSociales">Facebook</p>
+      <p class="redesSociales">Instagram</p>
+      <p class="redesSociales">Whatsapp</p>
+    </div>
+ </body>
+</html>
