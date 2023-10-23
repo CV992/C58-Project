@@ -9,20 +9,18 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
   </head>
   <body>
-    <div class="encabezado">
+    <div class="encabezado navbar navbar-expand-lg">
         <div class="tituloDePagina">
             <h1 class="tituloDePagina">PAGINA DE LIBROS</h1>
         </div>
-        <div class="navegacion">
-            <a class="linkGenero" href="#poesia">Poesia</a>
-            <a class="linkGenero" href="#cienciaFiccion">Ciencia Ficcion</a>
-            <a class="linkGenero" href="#drama">Drama</a>
-            <a class="linkGenero" href="#terror">Terror</a>
-        </div>
+            <a class="linkGenero nav-link active" href="#poesia">Poesia</a>
+            <a class="linkGenero nav-link active" href="#cienciaFiccion">Ciencia Ficcion</a>
+            <a class="linkGenero nav-link active" href="#drama">Drama</a>
+            <a class="linkGenero nav-link active" href="#terror">Terror</a>
     </div>
     <div class="contenidoPagina">
-      <div class="infoGeneros">
-        <div  class="generoLiterario">
+      <div class="infoGeneros col-md-24">
+        <div class="card generoLiterario">
           <div class="imagenGenero">
             <img
               class="estiloImagenGenero"
@@ -42,7 +40,27 @@
             </p>
           </div>
         </div>
-        <div  class="generoLiterario">
+        <div class="card generoLiterario">
+          <div class="imagenGenero">
+            <img
+              class="estiloImagenGenero"
+              src="https://www.elejandria.com/covers/Libro_de_poemas-Garcia_Lorca_Federico-md.png"
+              alt="libro de poesia"
+            />
+          </div>
+          <div class="textoGenero">
+            <h2 id="poesia" class="tituloGenero">POESIA</h2>
+            <p class="descripcionGenero">
+              La <strong>poesía</strong> es un género literario que se
+              caracteriza por ser una manifestación de los sentimientos,
+              emociones y reflexiones que puede expresar el ser humano en torno
+              a la belleza, el amor, la vida o la muerte por medio de la
+              palabra. Como tal, puede estar compuesta tanto en verso como en
+              prosa.
+            </p>
+          </div>
+        </div>
+        <div  class="card generoLiterario">
           <div class="imagenGenero">
             <img
               class="estiloImagenGenero"
@@ -62,7 +80,7 @@
           </div>
         </div>
 
-        <div  class="generoLiterario">
+        <div  class="card generoLiterario">
           <div class="imagenGenero">
             <img
               class="estiloImagenGenero"
@@ -83,7 +101,7 @@
           </div>
         </div>
 
-        <div class="generoLiterario">
+        <div class="card generoLiterario">
           <div class="imagenGenero">
             <img
               class="estiloImagenGenero"
@@ -104,7 +122,7 @@
           </div>
         </div>
       </div>
-      <div class="recomendaciones">
+      <div class="card recomendaciones col-md-4">
           <div class="tituloRecomendaciones">
             <h2>Recomendaciones</h2>
         </div>
@@ -147,8 +165,8 @@
           <textarea name="text" id="mensaje" cols="30" rows="10"></textarea>
         </div>
         <div class="botonesFormulario">
-          <input type="button" value="Enviar" />
-          <input type="reset" value="Borrar Campos" />
+          <input type="button" class="btn btn-success" value="Enviar" />
+          <input type="reset" class="btn btn-secondary"  value="Borrar Campos" />
         </div>
       </form>
     </div>
