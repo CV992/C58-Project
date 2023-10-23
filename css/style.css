@@ -1,6 +1,6 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .tituloDePagina {
@@ -9,11 +9,11 @@
   margin: 0;
 }
 
-.linkGenero{
-    color: orchid;
-    text-decoration: none;
-    margin-left: 10px;
-    margin-right: 10px;
+.linkGenero {
+  color: orchid;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .encabezado {
   top: 0;
@@ -23,11 +23,11 @@
   margin: 0;
   background-color: black;
 }
-.navegacion{
-    text-align: end;
-    margin-top: 10px;
-    margin-bottom: 15px;
-    padding-right: 10px;
+.navegacion {
+  text-align: end;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-right: 10px;
 }
 .contenidoPagina {
   display: flex;
@@ -110,16 +110,16 @@
   margin-left: 30px;
 }
 
-.labelFormulario{
-    margin-right: 15px;
+.labelFormulario {
+  margin-right: 15px;
 }
-.campoFormulario{
-    margin-bottom: 10px;
+.campoFormulario {
+  margin-bottom: 10px;
 }
 
-.recomendacion{
-    margin-top: 10%;
+.recomendacion {
+  margin-top: 10%;
 }
-.botonesFormulario{
-    margin-top: 15px;
+.botonesFormulario {
+  margin-top: 15px;
 }
