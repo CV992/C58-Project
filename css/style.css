@@ -1,37 +1,39 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .tituloDePagina {
   color: orchid;
   text-align: center;
   margin: 0;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.linkGenero{
-    color: orchid;
-    text-decoration: none;
-    margin-left: 10px;
-    margin-right: 10px;
+.linkGenero {
+  color: orchid !important;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .encabezado {
   top: 0;
   left: 0;
-  position: fixed;
+  position: fixed !important;
   width: 100%;
   margin: 0;
   background-color: black;
 }
-.navegacion{
-    text-align: end;
-    margin-top: 10px;
-    margin-bottom: 15px;
-    padding-right: 10px;
+.navegacion {
+  text-align: end;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-right: 10px;
 }
 .contenidoPagina {
   display: flex;
-  margin-top: 90px;
+  margin-top: 100px;
   margin-right: 15px;
   margin-left: 15px;
 }
@@ -39,7 +41,8 @@
   width: 45%;
   text-align: center;
   border: 1px solid black;
-  margin-left: 20px;
+  position: inherit !important;
+  margin-top: 10px;
 }
 .imagenPoesia {
   height: 200px;
@@ -96,6 +99,8 @@
   display: flex;
   text-align: center;
   margin-top: 10px;
+  position: inherit !important;
+  flex-direction: row !important;
 }
 .estiloImagenGenero {
   width: 150px !important;
@@ -104,22 +109,27 @@
 
 .descripcionGenero {
   text-align: justify;
+  padding-right: 20px;
 }
 
 .textoGenero {
   margin-left: 30px;
 }
 
-.labelFormulario{
-    margin-right: 15px;
+.labelFormulario {
+  margin-right: 15px;
 }
-.campoFormulario{
-    margin-bottom: 10px;
+.campoFormulario {
+  margin-bottom: 10px;
 }
 
-.recomendacion{
-    margin-top: 10%;
+.recomendacion {
+  margin-top: 10%;
 }
-.botonesFormulario{
-    margin-top: 15px;
+.botonesFormulario {
+  margin-top: 15px;
+}
+
+.infoGeneros{
+  padding-right: 20px;
 }
